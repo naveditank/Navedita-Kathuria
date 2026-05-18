@@ -157,6 +157,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:200;height:var(--nav-h);display:
 .proof-intro p{font-size:.88rem;color:var(--text2);line-height:2;font-weight:300}
 .proof-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line)}
 .proof-card{background:var(--white);padding:2rem 1.75rem;transition:background .2s}
+.proof-card.span2{grid-column:span 2}
 .proof-card:hover{background:var(--bg)}
 .proof-card-eyebrow{font-size:.56rem;font-weight:500;letter-spacing:.16em;text-transform:uppercase;color:var(--clay);margin-bottom:.75rem}
 .proof-card-title{font-family:var(--serif);font-size:1rem;color:var(--text);line-height:1.3;margin-bottom:.5rem}
@@ -659,7 +660,7 @@ footer p{font-size:.65rem;color:var(--muted)}
     <div class="sl">Work Proof</div>
     <h2 class="st">Beyond the case studies</h2>
     <div class="proof-intro fade">
-      <p>Numbers, reports, and real work — not just narratives. These are the campaigns, newsletters, and output that show what execution actually looks like.</p>
+      <p>Actual work — live links, reports, and output across brand strategy, content, copywriting, creative, and performance tracking. Not descriptions of what I did. The things themselves.</p>
     </div>
 
     <div class="proof-metrics fade">
@@ -669,53 +670,121 @@ footer p{font-size:.65rem;color:var(--muted)}
       <div class="pm"><span class="pmn">10+</span><span class="pml">Brands built or grown across roles</span></div>
     </div>
 
-    <div class="proof-grid fade" style="margin-top:1px">
+    <!-- ROW 1: Brand Strategy & Creative -->
+    <div style="margin-top:1px">
+      <div style="font-size:.56rem;font-weight:500;letter-spacing:.18em;text-transform:uppercase;color:var(--mid);padding:1.25rem 0 .75rem;border-bottom:1px solid var(--line);margin-bottom:1px">Brand Strategy &amp; Creative</div>
+    </div>
+    <div class="proof-grid fade">
       <div class="proof-card">
-        <div class="proof-card-eyebrow">Newsletter · Swiggy Scenes</div>
-        <div class="proof-card-title">Weekly Events Digest — CRM Campaign</div>
-        <div class="proof-card-desc">A weekly lifecycle newsletter designed to drive repeat session behaviour on the Scenes platform. Focused on personalised event discovery and FOMO-driven content architecture.</div>
-        <!-- Replace href below with your actual newsletter link -->
-        <a href="#" class="proof-card-link" target="_blank">View newsletter →</a>
-        <div class="i1" style="margin-top:1rem">
-          <div class="iph">
-            <svg class="iph-icon" viewBox="0 0 24 24" fill="none" stroke="#b5b0a8" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
-            <span>Add newsletter screenshot</span>
-          </div>
+        <div class="proof-card-eyebrow">Rebranding · WYN Studio</div>
+        <div class="proof-card-title">Roop Mantra Rebranding Project</div>
+        <div class="proof-card-desc">Full rebranding exercise for Roop Mantra — brand identity, positioning, and visual direction. Research-led approach to refreshing how the brand communicates to its audience.</div>
+        <a href="https://www.canva.com/design/DAF0OV37c9g/zMfKSA0aLVGLWCSxBiwDLg/edit" class="proof-card-link" target="_blank">View project →</a>
+      </div>
+
+      <div class="proof-card">
+        <div class="proof-card-eyebrow">Campaign Strategy · WYN Studio</div>
+        <div class="proof-card-title">Integrated Campaign Strategy Decks</div>
+        <div class="proof-card-desc">Three campaign strategy decks covering brand positioning, channel architecture, and creative direction for consumer brand clients at WYN Studio.</div>
+        <div style="display:flex;flex-direction:column;gap:.4rem;margin-top:.25rem">
+          <a href="https://www.canva.com/design/DAGkW7ukP9A/9AN091XYMdxIuJlN9IJIxw/edit" class="proof-card-link" target="_blank">Campaign deck 01 →</a>
+          <a href="https://www.canva.com/design/DAGkSD7obJQ/x3yDX_dyC-kkTf0dNmD4Vg/edit" class="proof-card-link" target="_blank">Campaign deck 02 →</a>
+          <a href="https://www.canva.com/design/DAGskVMnmMc/jRp0E2f840CCYmTpB9hPTg/edit" class="proof-card-link" target="_blank">Campaign deck 03 →</a>
+          <a href="https://docs.google.com/document/d/1R1h2zc6l36uSd9AXfluxWIFGVFy-z1mXt_ka7KWIMoY/edit" class="proof-card-link" target="_blank">Supporting doc →</a>
         </div>
       </div>
 
       <div class="proof-card">
-        <div class="proof-card-eyebrow">Campaign Report · WYN Studio</div>
-        <div class="proof-card-title">Integrated Campaign Performance Report</div>
-        <div class="proof-card-desc">End-to-end campaign report across social, performance, and influencer for a consumer brand client. Covers reach, CTR, conversions, and channel-level learnings used to restructure Q3 spend.</div>
-        <!-- Replace href below with your actual report link -->
-        <a href="#" class="proof-card-link" target="_blank">View report →</a>
-        <div class="i1" style="margin-top:1rem">
-          <div class="iph">
-            <svg class="iph-icon" viewBox="0 0 24 24" fill="none" stroke="#b5b0a8" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
-            <span>Add report screenshot or cover</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="proof-card">
-        <div class="proof-card-eyebrow">Brand Work · Totto</div>
-        <div class="proof-card-title">Totto Brand Identity &amp; Instagram Content</div>
-        <div class="proof-card-desc">Logo system, content strategy, Reels with original audio, and brand packaging with QR codes linking back to Instagram. Built from scratch in three months with zero paid budget.</div>
-        <!-- Replace href below with your Totto Instagram link -->
-        <a href="#" class="proof-card-link" target="_blank">View on Instagram →</a>
-        <div class="i2" style="margin-top:1rem">
-          <div class="iph">
-            <svg class="iph-icon" viewBox="0 0 24 24" fill="none" stroke="#b5b0a8" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
-            <span>Add product photo</span>
-          </div>
-          <div class="iph">
-            <svg class="iph-icon" viewBox="0 0 24 24" fill="none" stroke="#b5b0a8" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
-            <span>Add Reel screenshot</span>
-          </div>
+        <div class="proof-card-eyebrow">Ad Creative · WYN Studio</div>
+        <div class="proof-card-title">Ad Storyboarding &amp; AI-Generated Creatives</div>
+        <div class="proof-card-desc">Script-to-visual storyboards for video ads, plus a process document for building ad creatives through AI tools — from brief to production-ready output.</div>
+        <div style="display:flex;flex-direction:column;gap:.4rem;margin-top:.25rem">
+          <a href="https://docs.google.com/document/d/1iKRQC_NkO9-xI4eIKuPFt-I8n3erbNfENseNqyOwWIk/edit" class="proof-card-link" target="_blank">Ad storyboard →</a>
+          <a href="https://docs.google.com/document/d/1qKLRIZ9x41m-RmdCZNwRX5RdfWp9r3uQ7r7xdQDNAOM/edit" class="proof-card-link" target="_blank">AI creative process →</a>
         </div>
       </div>
     </div>
+
+    <!-- ROW 2: Performance & Reporting -->
+    <div style="margin-top:1px">
+      <div style="font-size:.56rem;font-weight:500;letter-spacing:.18em;text-transform:uppercase;color:var(--mid);padding:1.25rem 0 .75rem;border-bottom:1px solid var(--line);margin-bottom:1px">Performance Tracking &amp; Reporting</div>
+    </div>
+    <div class="proof-grid fade">
+      <div class="proof-card">
+        <div class="proof-card-eyebrow">Performance Report · WYN Studio</div>
+        <div class="proof-card-title">Campaign Performance Tracking Decks</div>
+        <div class="proof-card-desc">Two performance reporting decks built for client review — tracking reach, CTR, conversions, and channel-level learnings used to restructure spend and refocus creative direction.</div>
+        <div style="display:flex;flex-direction:column;gap:.4rem;margin-top:.25rem">
+          <a href="https://www.canva.com/design/DAGh1qqAUwY/a1fSQ7USJikCohfC3rQDww/edit" class="proof-card-link" target="_blank">Tracking deck 01 →</a>
+          <a href="https://www.canva.com/design/DAGhRC1MKuY/DsTxNI351fjcU9nM33DgAw/edit" class="proof-card-link" target="_blank">Tracking deck 02 →</a>
+        </div>
+      </div>
+
+      <div class="proof-card" style="grid-column:span 2">
+        <div class="proof-card-eyebrow">LinkedIn</div>
+        <div class="proof-card-title">Full work history, recommendations &amp; profile</div>
+        <div class="proof-card-desc">Detailed work history, skill endorsements, and recommendations from colleagues and managers across roles at Swiggy Scenes, WYN Studio, and BeFoundations.</div>
+        <a href="https://www.linkedin.com/in/naveditakathuria" class="proof-card-link" target="_blank">View LinkedIn profile →</a>
+      </div>
+    </div>
+
+    <!-- ROW 3: Content & Copywriting -->
+    <div style="margin-top:1px">
+      <div style="font-size:.56rem;font-weight:500;letter-spacing:.18em;text-transform:uppercase;color:var(--mid);padding:1.25rem 0 .75rem;border-bottom:1px solid var(--line);margin-bottom:1px">Content &amp; Copywriting</div>
+    </div>
+    <div class="proof-grid fade">
+      <div class="proof-card" style="grid-column:span 2">
+        <div class="proof-card-eyebrow">Newsletters · WYN Studio Substack</div>
+        <div class="proof-card-title">Marketing &amp; Culture Newsletter — WYN Studio</div>
+        <div class="proof-card-desc">Weekly newsletter covering brand marketing, consumer culture, and industry moves. Each edition takes a specific cultural or business moment and unpacks it — written for marketers who want analysis, not recaps.</div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:.35rem .75rem;margin-top:.75rem">
+          <a href="https://wynstudio.substack.com/p/chawal-or-chawla-swiggy-got-confused" class="proof-card-link" target="_blank">Chawal or Chawla? Swiggy got confused →</a>
+          <a href="https://wynstudio.substack.com/p/whats-cooking-with-orry-netflix-and" class="proof-card-link" target="_blank">What's cooking with Orry, Netflix &amp; more →</a>
+          <a href="https://wynstudio.substack.com/p/podcast-platform-shakeup-is-apple" class="proof-card-link" target="_blank">Podcast platform shake-up →</a>
+          <a href="https://wynstudio.substack.com/p/seeing-seeing-double-double-zomato" class="proof-card-link" target="_blank">Seeing double — Zomato →</a>
+          <a href="https://wynstudio.substack.com/p/are-hugs-the-new-selling-point" class="proof-card-link" target="_blank">Are hugs the new selling point? →</a>
+          <a href="https://wynstudio.substack.com/p/ever-seen-ai-run-a-fashion-show" class="proof-card-link" target="_blank">Ever seen AI run a fashion show? →</a>
+          <a href="https://wynstudio.substack.com/p/ever-sniffed-a-newspaper-ad" class="proof-card-link" target="_blank">Ever sniffed a newspaper ad? →</a>
+        </div>
+      </div>
+
+      <div class="proof-card">
+        <div class="proof-card-eyebrow">Social Media Copywriting · WYN Studio</div>
+        <div class="proof-card-title">SM Copy, Captions &amp; Content Scripts</div>
+        <div class="proof-card-desc">Social media copy across Instagram, LinkedIn, and other channels — captions, hooks, carousels, and content scripts written for multiple brand clients at WYN Studio.</div>
+        <div style="display:flex;flex-direction:column;gap:.4rem;margin-top:.25rem">
+          <a href="https://www.canva.com/design/DAGskk-sG98/zgSVpX-8jitJ65mNHN-eGQ/edit" class="proof-card-link" target="_blank">SM copy deck →</a>
+          <a href="https://docs.google.com/document/d/1a0Ap5ojavcsDp0-KtXLb_73D7b_edSimwY6zmEL8Yh0/edit" class="proof-card-link" target="_blank">Copy doc →</a>
+          <a href="https://drive.google.com/drive/folders/1WZQUSBdO4FWhC-qAzDOKlDk0WGUO7lAo" class="proof-card-link" target="_blank">Full copy folder →</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- ROW 4: Totto Brand Work -->
+    <div style="margin-top:1px">
+      <div style="font-size:.56rem;font-weight:500;letter-spacing:.18em;text-transform:uppercase;color:var(--mid);padding:1.25rem 0 .75rem;border-bottom:1px solid var(--line);margin-bottom:1px">Brand Building · Totto</div>
+    </div>
+    <div class="proof-grid fade">
+      <div class="proof-card">
+        <div class="proof-card-eyebrow">Brand Identity · Totto</div>
+        <div class="proof-card-title">Logo, Packaging &amp; Brand System</div>
+        <div class="proof-card-desc">Designed and executed the entire Totto brand identity — logo, thank-you cards with QR codes, Instagram profile, and visual content direction. All built in-house.</div>
+        <a href="https://www.instagram.com/tottobags/" class="proof-card-link" target="_blank">View @tottobags →</a>
+      </div>
+      <div class="proof-card">
+        <div class="proof-card-eyebrow">Content · Totto Instagram</div>
+        <div class="proof-card-title">Reels, Product Shoots &amp; Organic Growth</div>
+        <div class="proof-card-desc">Shot, edited, and published all Instagram content for Totto. Original-audio Reels drove 99.1% non-follower reach — 5,700 accounts reached and 836 profile visits, all organic.</div>
+        <a href="https://www.instagram.com/tottobags/" class="proof-card-link" target="_blank">View content →</a>
+      </div>
+      <div class="proof-card">
+        <div class="proof-card-eyebrow">Store · Swiggy Minis</div>
+        <div class="proof-card-title">Totto on Swiggy Minis</div>
+        <div class="proof-card-desc">Listed and operated Totto's product catalogue on Swiggy Minis with in-city delivery. Connected Facebook Pixel to the store for future performance targeting.</div>
+        <a href="https://totto-bags.mini.store/" class="proof-card-link" target="_blank">View Minis store →</a>
+      </div>
+    </div>
+
   </section>
 
   <div class="rule"></div>
